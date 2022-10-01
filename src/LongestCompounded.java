@@ -8,7 +8,7 @@ public class LongestCompounded {
         long startTime = System.currentTimeMillis();
 
         // to read input from a file
-        File file = new File("src/Input_01.txt");
+        File file = new File("src/Input_02.txt");
         //Trie Creation
         Trie trie = new Trie();
         LinkedList<Pair<String>> queue = new LinkedList<Pair<String>>();
